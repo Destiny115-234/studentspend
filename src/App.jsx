@@ -1,8 +1,12 @@
-function App(){
-  return (
-    <h1 className="text-5xl font-bold text-blue-600">
-      StudentSpend
-    </h1>
+import Navbar from "./components/NavBar"
+import Dashboard from "./components/DashBoard"
+
+function App() {
+  return(
+    <>
+    <Navbar/>
+    <Dashboard/>
+    </>
   )
 }
 
