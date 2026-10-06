@@ -1,7 +1,7 @@
 function Navbar() {
     return(
-        <nav className="flex items-center justify-between px-8 py-5">
-            <h1 className="text-3xl font-bold">
+        <nav className="flex items-center justify-between px-8 py-5 bg-blue-900 text-white">
+            <h1 className="text-5xl font-bold">
                 StudentSpend
             </h1>
 
